@@ -116,6 +116,17 @@ main {
     margin: 10px;
 }
 
+.skip-button {
+            display: inline-block;
+            padding: 10px 209px;
+            background-color: white;
+            color: #4A4F54;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
 section {
     margin-bottom: 1em;
 }
@@ -253,30 +264,65 @@ footer {
         <ul class="sidebar">
             <li onclick=hideSidebar()><a href=""><h1><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></h1></a></li>
             <li><a href="">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gear">Gear</a></li>
             <li><a href="#prints">Prints</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
         <ul>
             <li><a href="#home"><h1>Joseph McB Prints</h1></a></li>
             <li class="hideOnMobile"><a href="">Home</a></li>
+            <li class="hideOnMobile"><a href="#about">About</a></li>
+            <li class="hideOnMobile"><a href="#gear">Gear</a></li>
             <li class="hideOnMobile"><a href="#prints">Prints</a></li>
             <li class="hideOnMobile"><a href="#contact">Contact</a></li>
             <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></svg></svg></a></li>
         </ul>        
     </nav>
 
-    <main><br><br>
-    <section id="home"><br>
+    <main>
+
+        <section id="home"><br><br>
+            <div class="text-box">
+                <h2>Welcome to Joseph McB's website!</h2>
+                <h4>Here you will be able to view, browse, and select your high-quality print of choice to be send directly to you!</h4><br>
+                <h5>* All prints are images taken by JosephMcB, no other photographer can sell or upload images here.</h5>
+            </div>
+        </section>
+        <br><br>
+
+    <section id="about"><br><br>
         <div class="text-box">
-            <h2>Welcome to Joseph McB's website!</h2>
-            <h4>Here you will be able to view, browse, and select your high-quality print of choice to be send directly to you!</h4><br>
-            <h5>* All prints are images taken by JosephMcB, no other photographer can sell or upload images here.</h5>
+            <h2>About Me</h2>
+            <p>At 11 years-old, I, Joseph, developed a passion for aviation. In the first half of 2023, I captured aircraft photos on my phone, including Air NZ Boeing 787 and 777 that had diverted to Christchurch due to Auckland Airport flooding. On the same day, I spotted a 30-year special National 747 livery, a China Airlines Cargo 777 or A350, and 2 USAF KC-135 tankers.</p><br>
+            <p>I upgraded to a 14-year-old Nikon D3100 DSLR in June, enhancing my photography skills by editing and shooting in non-backlit places. Throughout 2023, I spotted rare planes like an ANA 787-9 Dreamliner transporting the Japanese football team for the Fifa World Cup, a USCG HC-130J, a National 747, and a Qantas A330.</p><br>
+            <p>During a free flight to Blenheim, I was with Tom Heslop in the cockpit. Later, I spotted a USAF LC-130 and rare aircraft like a NASA C-130. After a Disney Cruise in Auckland, I saw Air NZ 787 and 777, Air Canada 777, Air Chathams Swearing Metroliner, and Saab 340B.</p><br>
+            <p>In December, I used a friend's Canon EOS 200D Mark II. In 2024, I spotted a USAF McDonnell Douglas KC-10A Extender, met the co-pilot, and received a cool patch. Recently, I spotted a Qantas freight A330-202 in Christchurch for the first time.</p><br>
+            <p>I sell prints to share my work nationwide, emphasizing passion over profit. In 2023, I gained endorsements from airlines and Christchurch Airport. Featured in the Air NZ magazine, reposted on Christchurch Airport's Instagram page three times, followed by GCH Aviation, and featured on various airline Instagram stories.</p><br>
+            <p>With my Nikon D3100, I achieved three photos on Jetphotos, a significant accomplishment given the camera's limitations.</p><br>
+            <div class="skip-button">
+                <h3><a href="#prints">Click here</a> to skip to the "Prints" section</h3>
+            </div>
+        </div>
+    </section><br><br>
+
+    <section id="gear"><br><br>
+        <div class="text-box">
+            <h2>My Gear</h2><br>
+            <h3>Current Gear:</h3>
+            <p>- Nikon D3100 DSLR</p>
+            <p>- Nikkor 55-200mm</p>
+            <p>- Nikkor 18-55mm</p><br>
+            <h3>Future Gear:</h3>
+            <p>- Canon EOS 200D Mark II</p>
+            <p>- Canon EFS 55-250mm</p>
+            <p>- Canon 18-55mm</p><br>
         </div>
     </section>
 
         <br><br>
 
-    <section id="prints"><br>
+    <section id="prints"><br><br>
         <div class="text-box">
             <h1>My currently available prints:</h1><br>
             <div class="row">
@@ -302,6 +348,15 @@ footer {
                 </div>
                 <div class="column">
                     <a href="/11"><img src="images/11.JPG" width="45%" height="auto"></a>
+                    <a href="/12"><img src="images/12.JPG" width="45%" height="auto"></a>
+                </div>
+                <div class="column">
+                    <a href="/13"><img src="images/13.JPG" width="45%" height="auto"></a>
+                    <a href="/14"><img src="images/14.JPG" width="45%" height="auto"></a>
+                </div>
+                <div class="column">
+                    <a href="/15"><img src="images/15.JPG" width="45%" height="auto"></a>
+                    <a href="/16"><img src="images/16.JPG" width="45%" height="auto"></a>
                 </div>
             </div><br>
         </div>
@@ -309,14 +364,13 @@ footer {
             <h3>Click on an image to learn more.</h3>
         </div><br><br><br><br>
 
-        <section id="contact"><br>
+        <section id="contact"><br><br>
             <div class="text-box">
                 <h1>Contact Me</h1>
                 <h4>Have questions or suggestions? Reach out to me via any of my socials below!</h4><br>
-                <h5>* If you are thinking of purchasing one of my prints, please DM me on Instagram to continue.</h5>
+                <h5>* If you are thinking of purchasing one of my prints, please contact me via the contact box below or DM me on <a href="https://www.instagram.com/josephmcb_prints/"><b>Instagram</b></a>.</h5>
             <br>
             <ul>
-                <li class="contact-method"><i class="fas fa-envelope"></i>Email: <a href="mailto:josephmcbreartyphotography@gmail.com">josephmcbreartyphotography@gmail.com</a></li><br><br>
                 <li class="contact-method"><i class="fab fa-tiktok"></i>TikTok: @<a href="https://www.tiktok.com/@josephmcbphotography">josephmcbphotography</a></li><br><br>
                 <li class="contact-method"><i class="fab fa-instagram"></i>Instagram: @<a href="https://www.instagram.com/josephmcbphotography/">josephmcbphotography</a></li><br><br>
                 <li class="contact-method"><i class="fas fa-camera"></i>JetPhotos: @<a href="https://www.jetphotos.com/photographer/386058">josephmcbphotography</a></li><br><br>
